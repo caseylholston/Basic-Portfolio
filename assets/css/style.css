@@ -12,7 +12,7 @@ header {
 nav {
 	float: left;
 	position: fixed;
-	right:0;
+	right:0px;
 	margin: 10px 10px 10px 10px;
 
 		
@@ -47,12 +47,12 @@ h3 {
 }
 
 section {
-	width: 960px;
+	max-width:960px;
+	width: auto;
 	float: left;
 	clear: both;
 	overflow: auto;
 	margin: 0px auto 0px auto;
-	height: 100%;
 }
 
 article {
@@ -97,7 +97,8 @@ a:active {
 }
 
 aside {
-	width: 220px;
+	width: auto;
+	max-width: 250px;
 	background-color: #ffffff;
 	float: left;
 	margin: 20px 0px 20px 0px;
@@ -123,7 +124,7 @@ footer {
 
 
 .main-content {
-	width:650px;
+	max-width:650px;
 	background-color: #ffffff;
 	margin: 20px 10px 20px 10px;
 	margin-padding: 20px 20px 20px 20px;
@@ -193,7 +194,7 @@ textarea {
 	font-size: 18px;
 }
 
-input [type=Submit]{
-	width:50%;
+.submit-button {
+	width:25%;
 	font-size: 18px;
 }
